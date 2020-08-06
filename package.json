@@ -10,7 +10,8 @@
   "scripts": {
     "start": "node src/dev.js",
     "build": "parcel build ./src/index.html",
-    "lint": "eslint --ext .jsx --ext .js ./src"
+    "lint": "eslint --ext .jsx,.js ./src",
+    "lint:fix": "eslint --ext .jsx,.js --fix ./src"
   },
   "keywords": [],
   "author": {
